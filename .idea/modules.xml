@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProjectEuler.iml" filepath="$PROJECT_DIR$/.idea/ProjectEuler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" filepath="$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prime_factors/prime_factors.iml" filepath="$PROJECT_DIR$/prime_factors/prime_factors.iml" />
+    </modules>
+  </component>
+</project>
