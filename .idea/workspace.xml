@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8d64c9-1c76-4a6a-aeaa-cbc1b67c5996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/largest_adjacent_product/largest_adjecent_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/largest_adjacent_product/largest_adjecent_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="291">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -35,6 +33,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>a200</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,17 +77,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1628" />
-    <option name="width" value="1379" />
-    <option name="height" value="783" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +103,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.largest_adjecent_product">
+  <component name="RunManager" selected="Python.pythagorean_triplet">
     <configuration name="largest_adjecent_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="largest_adjacent_product" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,19 +171,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prime_factors" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="prime_factors" />
+    <configuration name="pythagorean_triplet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythagorean_triplet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prime_factors" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythagorean_triplet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prime_factors/prime_factors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pythagorean_triplet" />
         <item itemvalue="Python.largest_adjecent_product" />
         <item itemvalue="Python.nth_prime" />
         <item itemvalue="Python.sum_square" />
         <item itemvalue="Python.smallest_multiple" />
-        <item itemvalue="Python.prime_factors" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +261,7 @@
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13728632" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14049146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +270,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32386962" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32386962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="291">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>

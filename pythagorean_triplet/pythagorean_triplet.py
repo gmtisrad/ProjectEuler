@@ -1,4 +1,4 @@
-from math import sqrt, pow
+from math import floor
 
 def pythagorean_triplet(sum):
     a = 1
@@ -7,11 +7,42 @@ def pythagorean_triplet(sum):
 
     found = False
 
-    while not found:
-        c = (sum - (a + b))
+    while a < (floor(sum / 3) - 1) and not found:
 
+        b = a + 1
 
+        while b < floor(sum / 2) and not found:
+
+            c = (sum - (a + b))
+
+            if is_triplet(a, b, c):
+
+                found = True
+
+                print("FOUND IT")
+
+                return (a * b * c)
+
+            print("a{}, b{}, c{}".format(a, b, c))
+
+            b += 1
+
+        print("a{}, b{}, c{}".format(a, b, c))
+
+        a += 1
 
 
 def is_triplet(a, b, c):
-    return pow(c, 2) is pow(a, 2) + pow(b, 2)
+    csq = (c * c)
+
+    asq = (a * a)
+
+    bsq = (b * b)
+
+    #print("{} + {} = {}".format(asq, bsq, csq))
+
+    return ((asq + bsq) == csq)
+
+
+if __name__ == "__main__":
+    print(pythagorean_triplet(1000))
