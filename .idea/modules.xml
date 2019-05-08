@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ProjectEuler.iml" filepath="$PROJECT_DIR$/.idea/ProjectEuler.iml" />
       <module fileurl="file://$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" filepath="$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grid_product/grid_product.iml" filepath="$PROJECT_DIR$/grid_product/grid_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" filepath="$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/nth_prime/nth_prime.iml" filepath="$PROJECT_DIR$/nth_prime/nth_prime.iml" />
       <module fileurl="file://$PROJECT_DIR$/palindrome_product/palindrome_product.iml" filepath="$PROJECT_DIR$/palindrome_product/palindrome_product.iml" />
