@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8d64c9-1c76-4a6a-aeaa-cbc1b67c5996" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prime_summation/prime_summation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="435">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prime_summation/prime_summation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nth_prime/nth_prime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -55,6 +73,7 @@
         <option value="$PROJECT_DIR$/nth_prime/nth_prime.py" />
         <option value="$PROJECT_DIR$/largest_adjacent_product/largest_adjecent_product.py" />
         <option value="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" />
+        <option value="$PROJECT_DIR$/prime_summation/prime_summation.py" />
       </list>
     </option>
   </component>
@@ -73,6 +92,7 @@
         <option value="$PROJECT_DIR$/nth_prime/nth_prime.iml" />
         <option value="$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" />
         <option value="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.iml" />
+        <option value="$PROJECT_DIR$/prime_summation/prime_summation.iml" />
       </list>
     </option>
   </component>
@@ -97,7 +117,12 @@
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="pythagorean_triplet" type="462c0819:PsiDirectoryNode" />
+              <item name="nth_prime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
+              <item name="prime_summation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pythagorean_triplet">
+  <component name="RunManager" selected="Python.prime_summation">
     <configuration name="largest_adjecent_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="largest_adjacent_product" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,6 +196,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prime_summation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="prime_summation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/prime_summation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prime_summation/prime_summation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pythagorean_triplet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythagorean_triplet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,27 +230,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="smallest_multiple" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="smallest_multiple" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallest_multiple" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallest_multiple/smallest_multiple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prime_summation" />
         <item itemvalue="Python.pythagorean_triplet" />
         <item itemvalue="Python.largest_adjecent_product" />
         <item itemvalue="Python.nth_prime" />
         <item itemvalue="Python.sum_square" />
-        <item itemvalue="Python.smallest_multiple" />
       </list>
     </recent_temporary>
   </component>
@@ -332,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nth_prime/nth_prime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/largest_adjacent_product/largest_adjecent_product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -346,10 +364,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nth_prime/nth_prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="435">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prime_summation/prime_summation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>

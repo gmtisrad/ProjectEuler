@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/nth_prime/nth_prime.iml" filepath="$PROJECT_DIR$/nth_prime/nth_prime.iml" />
       <module fileurl="file://$PROJECT_DIR$/palindrome_product/palindrome_product.iml" filepath="$PROJECT_DIR$/palindrome_product/palindrome_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/prime_factors/prime_factors.iml" filepath="$PROJECT_DIR$/prime_factors/prime_factors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prime_summation/prime_summation.iml" filepath="$PROJECT_DIR$/prime_summation/prime_summation.iml" />
       <module fileurl="file://$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.iml" filepath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.iml" />
       <module fileurl="file://$PROJECT_DIR$/smallest_multiple/smallest_multiple.iml" filepath="$PROJECT_DIR$/smallest_multiple/smallest_multiple.iml" />
       <module fileurl="file://$PROJECT_DIR$/sum_square/sum_square.iml" filepath="$PROJECT_DIR$/sum_square/sum_square.iml" />
