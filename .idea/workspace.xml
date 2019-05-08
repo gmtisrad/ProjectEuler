@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8d64c9-1c76-4a6a-aeaa-cbc1b67c5996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/palindrome_product/palindrome_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nth_prime/nth_prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smallest_multiple/smallest_multiple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum_square/sum_square.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prime_factors/prime_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/prime_factors/prime_factors.py" afterDir="false" />
@@ -19,37 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FizzBuzz/fizz_buzz.py">
+        <entry file="file://$PROJECT_DIR$/sum_square/sum_square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prime_factors/prime_factors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="180">
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/palindrome_product/palindrome_product.py">
+        <entry file="file://$PROJECT_DIR$/nth_prime/nth_prime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="405">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -71,9 +55,12 @@
       <list>
         <option value="$PROJECT_DIR$/FizzBuzz/fizz_buzz.py" />
         <option value="$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.py" />
-        <option value="$PROJECT_DIR$/prime_factors/prime_factors.py" />
         <option value="$PROJECT_DIR$/palindrome_product.py" />
         <option value="$PROJECT_DIR$/palindrome_product/palindrome_product.py" />
+        <option value="$PROJECT_DIR$/prime_factors/prime_factors.py" />
+        <option value="$PROJECT_DIR$/smallest_multiple/smallest_multiple.py" />
+        <option value="$PROJECT_DIR$/sum_square/sum_square.py" />
+        <option value="$PROJECT_DIR$/nth_prime/nth_prime.py" />
       </list>
     </option>
   </component>
@@ -87,12 +74,15 @@
         <option value="$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" />
         <option value="$PROJECT_DIR$/prime_factors/prime_factors.iml" />
         <option value="$PROJECT_DIR$/palindrome_product/palindrome_product.iml" />
+        <option value="$PROJECT_DIR$/smallest_multiple/smallest_multiple.iml" />
+        <option value="$PROJECT_DIR$/sum_square/sum_square.iml" />
+        <option value="$PROJECT_DIR$/nth_prime/nth_prime.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2130" />
-    <option name="width" value="1389" />
+    <option name="x" value="1628" />
+    <option name="width" value="1379" />
     <option name="height" value="783" />
   </component>
   <component name="ProjectView">
@@ -110,17 +100,18 @@
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="palindrome_product" type="462c0819:PsiDirectoryNode" />
+              <item name="nth_prime" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6 (ProjectEuler)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ML/TFTutorials" />
@@ -140,41 +131,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.palindrome_product">
-    <configuration name="even_fibonaccis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="even_fibonaccis" />
+  <component name="RunManager" selected="Python.nth_prime">
+    <configuration name="nth_prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nth_prime" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/even_fibonaccis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nth_prime" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fizz_buzz" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FizzBuzz" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FizzBuzz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FizzBuzz/fizz_buzz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nth_prime/nth_prime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,12 +195,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="smallest_multiple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smallest_multiple" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallest_multiple" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallest_multiple/smallest_multiple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sum_square" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sum_square" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sum_square" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sum_square/sum_square.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.palindrome_product" />
+        <item itemvalue="Python.nth_prime" />
+        <item itemvalue="Python.sum_square" />
+        <item itemvalue="Python.smallest_multiple" />
         <item itemvalue="Python.prime_factors" />
-        <item itemvalue="Python.even_fibonaccis" />
-        <item itemvalue="Python.fizz_buzz" />
+        <item itemvalue="Python.palindrome_product" />
       </list>
     </recent_temporary>
   </component>
@@ -249,9 +262,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13568376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +272,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32386962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -279,6 +291,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/palindrome_product.py" />
     <entry file="file://$PROJECT_DIR$/FizzBuzz/fizz_buzz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -293,20 +306,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palindrome_product.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prime_factors/prime_factors.py">
+    <entry file="file://$PROJECT_DIR$/palindrome_product/palindrome_product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/palindrome_product/palindrome_product.py">
+    <entry file="file://$PROJECT_DIR$/smallest_multiple/smallest_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prime_factors/prime_factors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum_square/sum_square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nth_prime/nth_prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
