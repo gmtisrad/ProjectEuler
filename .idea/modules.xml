@@ -11,8 +11,10 @@
       <module fileurl="file://$PROJECT_DIR$/grid_product/grid_product.iml" filepath="$PROJECT_DIR$/grid_product/grid_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" filepath="$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/lattice_path/lattice_path.iml" filepath="$PROJECT_DIR$/lattice_path/lattice_path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.iml" filepath="$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/nth_prime/nth_prime.iml" filepath="$PROJECT_DIR$/nth_prime/nth_prime.iml" />
       <module fileurl="file://$PROJECT_DIR$/palindrome_product/palindrome_product.iml" filepath="$PROJECT_DIR$/palindrome_product/palindrome_product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/power_digit_sum/power_digit_sum.iml" filepath="$PROJECT_DIR$/power_digit_sum/power_digit_sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/prime_factors/prime_factors.iml" filepath="$PROJECT_DIR$/prime_factors/prime_factors.iml" />
       <module fileurl="file://$PROJECT_DIR$/prime_summation/prime_summation.iml" filepath="$PROJECT_DIR$/prime_summation/prime_summation.iml" />
       <module fileurl="file://$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.iml" filepath="$PROJECT_DIR$/pythagorean_triplet/pythagorean_triplet.iml" />

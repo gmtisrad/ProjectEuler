@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8d64c9-1c76-4a6a-aeaa-cbc1b67c5996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Uuge_sum_massive_sum/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Uuge_sum_massive_sum/large_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collatz_sequence/collats_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divisible_triangulars/divisible_triangulars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lattice_path/lattice_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum_path_sum/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/power_digit_sum/power_digit_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,20 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grid_product/grid_product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lattice_path/lattice_path.py">
+        <entry file="file://$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            <state relative-caret-position="-45">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -77,6 +66,9 @@
         <option value="$PROJECT_DIR$/Uuge_sum_massive_sum/large_sum.py" />
         <option value="$PROJECT_DIR$/collatz_sequence/collats_sequence.py" />
         <option value="$PROJECT_DIR$/lattice_path/lattice_path.py" />
+        <option value="$PROJECT_DIR$/power_digit_sum/power_digit_sum.py" />
+        <option value="$PROJECT_DIR$/maximum_path_sum/data.txt" />
+        <option value="$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.py" />
       </list>
     </option>
   </component>
@@ -101,6 +93,8 @@
         <option value="$PROJECT_DIR$/Uuge_sum_massive_sum/Uuge_sum_massive_sum.iml" />
         <option value="$PROJECT_DIR$/collatz_sequence/collatz_sequence.iml" />
         <option value="$PROJECT_DIR$/lattice_path/lattice_path.iml" />
+        <option value="$PROJECT_DIR$/power_digit_sum/power_digit_sum.iml" />
+        <option value="$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.iml" />
       </list>
     </option>
   </component>
@@ -131,7 +125,7 @@
             <path>
               <item name="ProjectEuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
-              <item name="lattice_path" type="462c0819:PsiDirectoryNode" />
+              <item name="maximum_path_sum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,6 +142,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lattice_path">
+  <component name="RunManager" selected="Python.power_digit_sum">
     <configuration name="grid_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="grid_product" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,27 +178,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="largest_adjecent_product" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="largest_adjacent_product" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/largest_adjacent_product" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/largest_adjacent_product/largest_adjecent_product.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="lattice_path" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lattice_path" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +191,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lattice_path/lattice_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="power_digit_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="power_digit_sum" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/power_digit_sum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/power_digit_sum/power_digit_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.power_digit_sum" />
         <item itemvalue="Python.lattice_path" />
         <item itemvalue="Python.grid_product" />
         <item itemvalue="Python.prime_summation" />
         <item itemvalue="Python.pythagorean_triplet" />
-        <item itemvalue="Python.largest_adjecent_product" />
       </list>
     </recent_temporary>
   </component>
@@ -292,9 +287,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14209402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18696581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,12 +297,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32386962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32386962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32912722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32912722" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -441,8 +435,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lattice_path/lattice_path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="960">
           <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/power_digit_sum/power_digit_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maximum_path_sum/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maximum_path_sum/maximum_path_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
         </state>
       </provider>
     </entry>
