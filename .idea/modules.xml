@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ProjectEuler.iml" filepath="$PROJECT_DIR$/.idea/ProjectEuler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Uuge_sum_massive_sum/Uuge_sum_massive_sum.iml" filepath="$PROJECT_DIR$/Uuge_sum_massive_sum/Uuge_sum_massive_sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collatz_sequence/collatz_sequence.iml" filepath="$PROJECT_DIR$/collatz_sequence/collatz_sequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/divisible_triangulars/divisible_triangulars.iml" filepath="$PROJECT_DIR$/divisible_triangulars/divisible_triangulars.iml" />
       <module fileurl="file://$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" filepath="$PROJECT_DIR$/even_fibonaccis/even_fibonaccis.iml" />
       <module fileurl="file://$PROJECT_DIR$/grid_product/grid_product.iml" filepath="$PROJECT_DIR$/grid_product/grid_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" filepath="$PROJECT_DIR$/largest_adjacent_product/largest_adjacent_product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lattice_path/lattice_path.iml" filepath="$PROJECT_DIR$/lattice_path/lattice_path.iml" />
       <module fileurl="file://$PROJECT_DIR$/nth_prime/nth_prime.iml" filepath="$PROJECT_DIR$/nth_prime/nth_prime.iml" />
       <module fileurl="file://$PROJECT_DIR$/palindrome_product/palindrome_product.iml" filepath="$PROJECT_DIR$/palindrome_product/palindrome_product.iml" />
       <module fileurl="file://$PROJECT_DIR$/prime_factors/prime_factors.iml" filepath="$PROJECT_DIR$/prime_factors/prime_factors.iml" />
