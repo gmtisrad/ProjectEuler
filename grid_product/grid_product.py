@@ -23,6 +23,55 @@ def print_grid():
     for i in range(20):
         print(grid[i])
 
+def traverse_grid(width):
+    largest = 0
+    
+    for i in range(width):
+        for j in range(width):
+            # Getting the product of 4 up from the current location
+            if i >= to_mult:
+                number = up_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 up_right from the current location
+            if i >= to_mult and j <= width - to_mult:
+                number = up_right_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 right from the current location
+            if j <= width - to_mult:
+                number = right_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 down_right from the current location
+            if j <= width - to_mult and i <= width - to_mult:
+                number = down_right_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 down from current location
+            if i <= width - to_mult:
+                number = down_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 down_left from the current location
+            if i <= width - to_mult and j >= to_mult:
+                number = down_left_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 left from the current location
+            if j >= to_mult:
+                number = left_product(i, j)
+                if largest < number:
+                    largest = number
+            # Getting the product of 4 up_left from the current location
+            if j >= to_mult and i >= to_mult:
+                number = up_left_product(i, j)
+                if largest < number:
+                    largest = number
+    print(largest)
+    return largest
+            
+
 # End grid set up and helpers #
 
 # Products in all directions #
@@ -31,53 +80,63 @@ def up_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
-        accumulator *= grid[x+idx][y]
+        accumulator *= grid[x-idx][y]
+    return accumulator
 
 def up_right_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x-idx][y+idx]
+    return accumulator
 
 def right_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x][y+idx]
+    return accumulator
 
 def down_right_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x+idx][y+idx]
+    return accumulator
 
 def down_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x+idx][y]
+    return accumulator
 
 def down_left_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x+idx][y-idx]
+    return accumulator
 
 def left_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x][y-idx]
+    return accumulator
 
 def up_left_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x-idx][y-idx]
+    return accumulator
 
 # End products in all directions #
 
 if __name__ == "__main__":
     create_grid(20)
-    up_product(3,0)
+
     print_grid()
+
+    traverse_grid(20)
