@@ -2,6 +2,8 @@ grid_string = "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08 49 49
 grid = []
 to_mult = 4
 
+# Grid set up and helpers #
+
 def create_grid(width):
     count = 0
     for idx in range(width):
@@ -20,6 +22,10 @@ def get_number(x):
 def print_grid():
     for i in range(20):
         print(grid[i])
+
+# End grid set up and helpers #
+
+# Products in all directions #
 
 def up_product(x,y):
     accumulator = 1
@@ -49,7 +55,7 @@ def down_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
-        accumulator *= grid[x-idx][y]
+        accumulator *= grid[x+idx][y]
 
 def down_left_product(x,y):
     accumulator = 1
@@ -61,13 +67,15 @@ def left_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
-        accumulator *= grid[x-idx][y]
+        accumulator *= grid[x][y-idx]
 
 def up_left_product(x,y):
     accumulator = 1
 
     for idx in range(to_mult):
         accumulator *= grid[x-idx][y-idx]
+
+# End products in all directions #
 
 if __name__ == "__main__":
     create_grid(20)
