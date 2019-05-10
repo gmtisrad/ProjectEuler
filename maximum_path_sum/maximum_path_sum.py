@@ -7,6 +7,7 @@ def get_triangle():
 
     return my_triangle
 
+# Greedy depth first not brute force
 def probe(triangle, x = 0, y = 0, current_sum = 0):
     idx = x
     idy = y
@@ -53,8 +54,34 @@ def probe(triangle, x = 0, y = 0, current_sum = 0):
     else:
         probe(triangle, idx + 2, idy, current_sum)
 
+# Brute force attempt
+def brute_force(triangle, accumulator, idx, idy, data = []):
+    new_idy = idy
+
+    if idx == -1:
+        brute_force(triangle, accumulator + int(triangle[idx + 1][idy]), idx + 1, idy, data)
+    else:
+        if idx < len(triangle) - 1:
+            brute_force(triangle, accumulator + int(triangle[idx + 1][idy]), idx + 1, idy, data)
+            brute_force(triangle, accumulator + int(triangle[idx + 1][idy + 1]), idx + 1, idy + 1, data)
+        else:
+            data.append(accumulator)
+
+
+
+
+
 
 if __name__ == "__main__":
     triangle = get_triangle()
+    store = []
 
-    probe(triangle, 0, 0, 0)
+    brute_force(triangle, 0, -1, 0, store)
+
+    largest = 0
+
+    for i in store:
+        if i > largest:
+            largest = i
+            print(largest)
+    print(largest)
